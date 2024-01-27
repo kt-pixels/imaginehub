@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "img": "./public/Asstes/Dog/1.jpeg",
+        "img": "Asstes/Dog/1.jpeg",
         "Ctg": "Dogs",
         "name": "Fox"
     },
