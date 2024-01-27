@@ -1,127 +1,127 @@
 [
     {
         "id": "1",
-        "img": "./public/Asstes/Boys/1.jpeg",
+        "img": "Assets/Boys/1.jpeg",
         "Ctg": "Boys",
         "name": "..."
     },
     {
         "id": "2",
-        "img": "./public/Asstes/Boys/2.jpg",
+        "img": "Assets/Boys/2.jpg",
         "Ctg": "Boys",
         "name": "..."
     },
     {
         "id": "3",
-        "img": "./public/Asstes/Boys/3.jpg",
+        "img": "Assets/Boys/3.jpg",
         "Ctg": "Boys",
         "name": "..."
     },
     {
         "id": "4",
-        "img": "./public/Asstes/Boys/4.jpeg",
+        "img": "Assets/Boys/4.jpeg",
         "Ctg": "Boys",
         "name": "..."
     },
     {
         "id": "5",
-        "img": "./public/Asstes/Boys/5.jpeg",
+        "img": "Assets/Boys/5.jpeg",
         "Ctg": "Boys",
         "name": "..."
     },
     {
         "id": "6",
-        "img": "./public/Asstes/Boys/7.jpeg",
+        "img": "Assets/Boys/7.jpeg",
         "Ctg": "Boys",
         "name": "..."
     },
     {
         "id": "7",
-        "img": "./public/Asstes/Boys/8.jpg",
+        "img": "Assets/Boys/8.jpg",
         "Ctg": "Boys",
         "name": "..."
     },
     {
         "id": "8",
-        "img": "./public/Asstes/Boys/9.jpeg",
+        "img": "Assets/Boys/9.jpeg",
         "Ctg": "Boys",
         "name": "..."
     },
     {
         "id": "9",
-        "img": "./public/Asstes/Boys/10.jpeg",
+        "img": "Assets/Boys/10.jpeg",
         "Ctg": "Boys",
         "name": "..."
     },
     {
         "id": "10",
-        "img": "./public/Asstes/Boys/11.jpg",
+        "img": "Assets/Boys/11.jpg",
         "Ctg": "Boys",
         "name": "..."
     },
     {
         "id": "11",
-        "img": "./public/Asstes/Boys/12.jpg",
+        "img": "Assets/Boys/12.jpg",
         "Ctg": "Boys",
         "name": "..."
     },
     {
         "id": "12",
-        "img": "./public/Asstes/Boys/13.jpeg",
+        "img": "Assets/Boys/13.jpeg",
         "Ctg": "Boys",
         "name": "..."
     },
     {
         "id": "13",
-        "img": "./public/Asstes/Boys/14.jpeg",
+        "img": "Assets/Boys/14.jpeg",
         "Ctg": "Boys",
         "name": "..."
     },
     {
         "id": "14",
-        "img": "./public/Asstes/Boys/15.jpeg",
+        "img": "Assets/Boys/15.jpeg",
         "Ctg": "Boys",
         "name": "..."
     },
     {
         "id": "15",
-        "img": "./public/Asstes/Boys/16.jpeg",
+        "img": "Assets/Boys/16.jpeg",
         "Ctg": "Boys",
         "name": "..."
     },
     {
         "id": "16",
-        "img": "./public/Asstes/Boys/17.jpeg",
+        "img": "Assets/Boys/17.jpeg",
         "Ctg": "Boys",
         "name": "..."
     },
     {
         "id": "17",
-        "img": "./public/Asstes/Boys/18.jpeg",
+        "img": "Assets/Boys/18.jpeg",
         "Ctg": "Boys",
         "name": "..."
     },
     {
         "id": "18",
-        "img": "./public/Asstes/Boys/19.jpeg",
+        "img": "Assets/Boys/19.jpeg",
         "Ctg": "Boys",
         "name": "..."
     },
     {
         "id": "19",
-        "img": "./public/Asstes/Boys/20.jpeg",
+        "img": "Assets/Boys/20.jpeg",
         "Ctg": "Boys",
         "name": "..."
     },
     {
         "id": "20",
-        "img": "./public/Asstes/Boys/21.jpeg",
+        "img": "Assets/Boys/21.jpeg",
         "Ctg": "Boys",
         "name": "..."
     },
     {
         "id": "21",
-        "img": "./public/Asstes/Boys/22.jpeg",
+        "img": "Assets/Boys/22.jpeg",
         "Ctg": "Boys",
         "name": "..."
     }
