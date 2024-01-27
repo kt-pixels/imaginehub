@@ -1,13 +1,13 @@
 [
     {
         "id": 1,
-        "img": "./public/image/alligator.jpg",
+        "img": "../../public/image/alligator.jpg",
         "name": "Alligator",
         "Ctg": "Alligator"
     },
     {
         "id": 2,
-        "img": "./public/image/fruit.jpg",
+        "img": "../public/image/fruit.jpg",
         "name": "Fruit Basket",
         "Ctg": "Fruits"
     },
