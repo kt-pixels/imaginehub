@@ -1,0 +1,14 @@
+/* 
+FONTS
+
+font-family: 'Concert One', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Slabo 13px', serif;
+font-family: 'Slabo 27px', serif; 
+*/
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,238 @@
+[
+    {
+        "id": 1,
+        "img": "./public/image/alligator.jpg",
+        "name": "Alligator",
+        "Ctg": "Alligator"
+    },
+    {
+        "id": 2,
+        "img": "./public/image/fruit.jpg",
+        "name": "Fruit Basket",
+        "Ctg": "Fruits"
+    },
+    {
+        "id": 3,
+        "img": "./public/image/angryface.jpg",
+        "name": "Cat Sketch",
+        "Ctg": "Cat"
+    },
+    {
+        "id": 4,
+        "img": "./public/image/apple.jpg",
+        "name": "Fruits Art",
+        "Ctg": "Fruits"
+    },
+    {
+        "id": 5,
+        "img": "./public/image/butter-fly.jpg",
+        "name": "ButterFly",
+        "Ctg": "Butterfly"
+    },
+    {
+        "id": 6,
+        "img": "./public/image/car.jpg",
+        "name": "Car",
+        "Ctg": "Car"
+    },
+    {
+        "id": 7,
+        "img": "./public/image/catgirl.jpg",
+        "name": "Girl walking...",
+        "Ctg": "Girl"
+    },
+    {
+        "id": 8,
+        "img": "./public/image/cats.jpg",
+        "name": "Cat Sketch",
+        "Ctg": "Cat"
+    },
+    {
+        "id": 9,
+        "img": "./public/image/croco.jpg",
+        "name": "Croco On Bike",
+        "Ctg": "Alligator"
+    },
+    {
+        "id": 10,
+        "img": "./public/image/dogart.jpg",
+        "name": "Dog Art",
+        "Ctg": "Dog"
+    },
+    {
+        "id": 11,
+        "img": "./public/image/football.jpg",
+        "name": "Playing Football",
+        "Ctg": "Boy"
+    },
+    {
+        "id": 12,
+        "img": "./public/image/girlcoding.jpg",
+        "name": "Girl coding",
+        "Ctg": "Girl"
+    },
+    {
+        "id": 13,
+        "img": "./public/image/oilele.jpg",
+        "name": "Elephant Art",
+        "Ctg": "Elephant"
+    },
+    {
+        "id": 14,
+        "img": "./public/image/orange.jpg",
+        "name": "Oranges",
+        "Ctg": "Fruits"
+    },
+    {
+        "id": 15,
+        "img": "./public/image/lakes.jpg",
+        "name": "Lake",
+        "Ctg": "Sceneries"
+    },
+    {
+        "id": 16,
+        "img": "./public/image/panda.jpg",
+        "name": "Panda",
+        "Ctg": "Panda"
+    },
+    {
+        "id": 17,
+        "img": "./public/image/icecream.jpg",
+        "name": "Ice Cream",
+        "Ctg": "Food"
+    },
+    {
+        "id": 18,
+        "img": "./public/image/whale.jpg",
+        "name": "Whale Fish Art",
+        "Ctg": "Fish"
+    },
+    {
+        "id": 19,
+        "img": "./public/image/horse.jpg",
+        "name": "Horse Painting",
+        "Ctg": "Horse"
+    },
+    {
+        "id": 20,
+        "img": "./public/image/lake.jpg",
+        "name": "Lake",
+        "Ctg": "Sceneries"
+    },
+    {
+        "id": 21,
+        "img": "./public/image/happyboy.jpg",
+        "name": "Happy Boy",
+        "Ctg": "Boy"
+    },
+    {
+        "id": 22,
+        "img": "./public/image/lions (1).jpg",
+        "name": "Lions In Group",
+        "Ctg": "Lion"
+    },
+    {
+        "id": 23,
+        "img": "./public/image/skybirds.jpg",
+        "name": "Nature Art",
+        "Ctg": "Sceneries"
+    },
+    {
+        "id": 24,
+        "img": "./public/image/robot.jpg",
+        "name": "Robot",
+        "Ctg": "All"
+    },
+    {
+        "id": 25,
+        "img": "./public/image/supera.jpg",
+        "name": "Supra",
+        "Ctg": "Car"
+    },
+    {
+        "id": 26,
+        "img": "./public/image/panda5.jpg",
+        "name": "Sliping Panda",
+        "Ctg": "Panda"
+    },
+    {
+        "id": 27,
+        "img": "./public/image/oilphant.jpg",
+        "name": "Oil Art",
+        "Ctg": "Elephant"
+    },
+    {
+        "id": 28,
+        "img": "./public/image/dog (6).jpg",
+        "name": "Doggy",
+        "Ctg": "Dog"
+    },
+    {
+        "id": 29,
+        "img": "./public/image/boy1.jpg",
+        "name": "😊",
+        "Ctg": "Boy"
+    },
+    {
+        "id": 30,
+        "img": "./public/image/sketchele.jpg",
+        "name": "Elephant Sketch",
+        "Ctg": "Elephant"
+    },
+    {
+        "id": 31,
+        "img": "./public/image/dog (13).jpg",
+        "name": "BeutyFull Lake",
+        "Ctg": "Sceneries"
+    },
+    {
+        "id": 32,
+        "img": "./public/image/fruitbasket.jpg",
+        "name": "Fruit Basket",
+        "Ctg": "Fruits"
+    },
+    {
+        "id": 33,
+        "img": "./public/image/fruits.jpg",
+        "name": "Fruits Painting",
+        "Ctg": "Fruits"
+    },
+    {
+        "id": 34,
+        "img": "./public/image/dog (7).jpg",
+        "name": "Dog painting",
+        "Ctg": "Dog"
+    },
+    {
+        "id": 35,
+        "img": "./public/image/boy3.jpg",
+        "name": "Anime Boy",
+        "Ctg": "Boy"
+    },
+    {
+        "id": 36,
+        "img": "./public/image/grasshorse.jpg",
+        "name": "Horse Painting",
+        "Ctg": "Horse"
+    },
+    {
+        "id": 37,
+        "img": "./public/image/phant.jpg",
+        "name": "Ele. Painting",
+        "Ctg": "Elephant"
+    },
+    {
+        "id": 38,
+        "img": "./public/image/panda3.jpg",
+        "name": "Sleeping",
+        "Ctg": "Panda"
+    },
+    {
+        "id": 39,
+        "img": "./public/image/sky(2).jpg",
+        "name": "Birds",
+        "Ctg": "Sceneries"
+    }
+    
+    
+]
