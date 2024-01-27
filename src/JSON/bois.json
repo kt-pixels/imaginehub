@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "img": "Assets/Boys/1.jpeg",
+        "img": "./Assets/Boys/1.jpeg",
         "Ctg": "Boys",
         "name": "..."
     },
