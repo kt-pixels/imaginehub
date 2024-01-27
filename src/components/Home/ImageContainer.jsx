@@ -48,43 +48,43 @@ function ImageContainer() {
       }}
       >
         <SwiperSlide className="ul" onClick={() => setCategory(Images)}>
-          <img src="./public/image/buety.jpg" alt="" width={65} />
+          <img src="image/buety.jpg" alt="" width={65} />
           <p>All</p>
         </SwiperSlide>
         <SwiperSlide className="ul" onClick={() => filterCtg("Fruits")}>
-          <img src="./public/image/fruits.jpg" alt="" width={65} />
+          <img src="image/fruits.jpg" alt="" width={65} />
           <p>Fruit</p>
         </SwiperSlide>
         <SwiperSlide className="ul" onClick={() => filterCtg("Alligator")}>
-          <img src="./public/image/croco.jpg" alt="" width={65} />
+          <img src="image/croco.jpg" alt="" width={65} />
           <p>Alligator</p>
         </SwiperSlide>
         <SwiperSlide className="ul" onClick={() => filterCtg("Elephant")}>
-          <img src="./public/image/elepant.jpg" alt="" width={65} />
+          <img src="image/elepant.jpg" alt="" width={65} />
           <p>Elephant</p>
         </SwiperSlide>
         <SwiperSlide className="ul" onClick={() => filterCtg("Dog")}>
-          <img src="./public/image/doggy.jpg" alt="" width={65} />
+          <img src="image/doggy.jpg" alt="" width={65} />
           <p>Dog</p>
         </SwiperSlide>
         <SwiperSlide className="ul" onClick={() => filterCtg("Cat")}>
-          <img src="./public/image/cats.jpg" alt="" width={65} />
+          <img src="image/cats.jpg" alt="" width={65} />
           <p>Cat</p>
         </SwiperSlide>
         <SwiperSlide className="ul" onClick={() => filterCtg("Car")}>
-          <img src="./public/image/car.jpg" alt="" width={65} />
+          <img src="image/car.jpg" alt="" width={65} />
           <p>Car</p>
         </SwiperSlide>
         <SwiperSlide className="ul" onClick={() => filterCtg("Boy")}>
-          <img src="./public/image/happyboy.jpg" alt="" width={65} />
+          <img src="image/happyboy.jpg" alt="" width={65} />
           <p>Boy</p>
         </SwiperSlide>
         <SwiperSlide className="ul" onClick={() => filterCtg("Panda")}>
-          <img src="./public/image/panda.jpg" alt="" width={65} />
+          <img src="image/panda.jpg" alt="" width={65} />
           <p>Panda</p>
         </SwiperSlide>
         <SwiperSlide className="ul" onClick={() => filterCtg("Girl")}>
-          <img src="./public/image/girlcoding.jpg" alt="" width={65} />
+          <img src="image/girlcoding.jpg" alt="" width={65} />
           <p>Girl</p>
         </SwiperSlide>
       </Swiper>

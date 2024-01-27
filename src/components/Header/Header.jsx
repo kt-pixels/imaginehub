@@ -4,6 +4,8 @@ import Images from "../../images.json";
 import "../MainStyle.css";
 
 function Header() {
+
+  // SEARCH FUNCTIONALITY
   const [search, setSearch] = useState("");
   const [filter, setFilter] = useState(Images);
 
@@ -17,19 +19,17 @@ function Header() {
     setFilter(filterInput);
   };
 
-  
   const [translateY, setTranslateY] = useState('-350px');
 
-  const changeTranslate = () => {
-    if (translateY === '-350px') {
+  const clickToChange = () => {
+    if(translateY === '-350px'){
       setTranslateY('70px')
-    } else {
+    }else{
       setTranslateY('-350px')
     }
   }
 
   return (
-
     <section className="head">
       {/* <div className="header">
         <div className="logo">
@@ -76,26 +76,26 @@ function Header() {
         {/* <!-- NAVBAR --> */}
         <nav className="navbar mb-header-container">
           {/* <div className="mb-header-container"> */}
-            <div 
-            className="bars" 
-            onClick={changeTranslate}
-            >
-              <div className="bar"></div>
-              <div className="bar"></div>
-              <div className="bar"></div>
-            </div>
-            <div className="mb-logo">ImagineHub</div>
-          {/* </div> */}
-          <div className="header-container"
-          style={{ transform: `translateY(${translateY})` }}
-          >
-            <div className="logo">
-              <h1 className="logo-heading">ImagineHub</h1>
-            </div>
-            <ul className="lists">
+          <div className="bars" onClick={clickToChange}>
+            <div className="bar"></div>
+            <div className="bar"></div>
+            <div className="bar"></div>
+          </div>
+          <div className="mb-logo">ImagineHub</div>
+
+
+          {/* IN MOBILE VIE HEADER CODE  */}
+
+          <div className="mobile-view-header" style={{transform: `translateY(${translateY})`}}>
+          <ul className="lists">
               <li>
                 <div className="nav-list">
-                  <NavLink to="/" className={({isActive}) => `links ${isActive ? 'isactive' : ""}`} >
+                  <NavLink
+                    to="/"
+                    className={({ isActive }) =>
+                      `links ${isActive ? "isactive" : ""}`
+                    }
+                  >
                     Home
                   </NavLink>
                 </div>
@@ -103,23 +103,115 @@ function Header() {
 
               <li>
                 <div className="nav-list">
-                  <NavLink to="/about" className={({isActive}) => `links ${isActive ? 'isactive' : ""}`}>
-                    About Us
+                  <NavLink
+                    to="/animals"
+                    className={({ isActive }) =>
+                      `links ${isActive ? "isactive" : ""}`
+                    }
+                  >
+                    Animals
                   </NavLink>
                 </div>
               </li>
 
               <li>
                 <div className="nav-list">
-                  <NavLink to="/pictures" className={({isActive}) => `links ${isActive ? 'isactive' : ""}`}>
-                    Pictures
+                  <NavLink
+                    to="/boys"
+                    className={({ isActive }) =>
+                      `links ${isActive ? "isactive" : ""}`
+                    }
+                  >
+                    Boys
                   </NavLink>
                 </div>
               </li>
 
               <li>
                 <div className="nav-list">
-                  <NavLink to="/favorate" className={({isActive}) => `links ${isActive ? 'isactive' : ""}`}>
+                  <NavLink
+                    to="/favorate"
+                    className={({ isActive }) =>
+                      `links ${isActive ? "isactive" : ""}`
+                    }
+                  >
+                    Favorate
+                  </NavLink>
+                </div>
+              </li>
+            </ul>
+            <div className="search-bar">
+              <button className="search">
+                <i className="fas fa-search"></i>
+              </button>
+              <form>
+                <input
+                  type="text"
+                  name="search"
+                  className="input-field"
+                  id="search"
+                  placeholder="search image..."
+                  value={search}
+                  onChange={filterSearchValue}
+                />
+              </form>
+            </div>
+          </div>
+
+
+          {/* </div> */}
+          <div className="header-container">
+            <div className="logo">
+              <h1 className="logo-heading">ImagineHub</h1>
+            </div>
+            <ul className="lists">
+              <li>
+                <div className="nav-list">
+                  <NavLink
+                    to="/"
+                    className={({ isActive }) =>
+                      `links ${isActive ? "isactive" : ""}`
+                    }
+                  >
+                    Home
+                  </NavLink>
+                </div>
+              </li>
+
+              <li>
+                <div className="nav-list">
+                  <NavLink
+                    to="/animals"
+                    className={({ isActive }) =>
+                      `links ${isActive ? "isactive" : ""}`
+                    }
+                  >
+                    Animals
+                  </NavLink>
+                </div>
+              </li>
+
+              <li>
+                <div className="nav-list">
+                  <NavLink
+                    to="/boys"
+                    className={({ isActive }) =>
+                      `links ${isActive ? "isactive" : ""}`
+                    }
+                  >
+                    Boys
+                  </NavLink>
+                </div>
+              </li>
+
+              <li>
+                <div className="nav-list">
+                  <NavLink
+                    to="/favorate"
+                    className={({ isActive }) =>
+                      `links ${isActive ? "isactive" : ""}`
+                    }
+                  >
                     Favorate
                   </NavLink>
                 </div>

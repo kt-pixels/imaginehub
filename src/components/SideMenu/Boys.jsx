@@ -6,7 +6,7 @@ import ImagesData from "../../JSON/bois.json";
 import {Link} from 'react-router-dom'
 import { useFavoriteContext } from "../Context/ImageSaveContext.jsx";
 
-const counting = 5000;
+const counting = 100;
 
 function Boys() {
 
@@ -24,15 +24,15 @@ const { addToFavorite, downloadOnClick } = useFavoriteContext();
 
   return (
     <div className="animal-wrapper">
-      <SideMenu />
+      {/* <SideMenu /> */}
       <div className="main-content">
         <div className="animal-heading">
           <h2 className="heading">
             Boys Images{" "}
-            <CountUp start={counting} end={14000} duration={10} /> +
+            <CountUp start={counting} end={1000} duration={10} /> +
           </h2>
         </div>
-        <div className="categories">
+        {/* <div className="categories">
           <div className="display-ctg">
             <button className="ctg-btn" onClick={() => setImages(ImagesData)}>All</button>
             <button className="ctg-btn" onClick={() => FilterImages("Lion")}>Lion</button>
@@ -42,7 +42,7 @@ const { addToFavorite, downloadOnClick } = useFavoriteContext();
             <button className="ctg-btn" onClick={() => FilterImages("Dogs")}>Dog</button>
             <button className="ctg-btn" onClick={() => FilterImages("Elephent")}>Elephent</button>
           </div>
-        </div>
+        </div> */}
 
         <div className="animals-images">
         <section className="images-container all-images">
@@ -66,6 +66,9 @@ const { addToFavorite, downloadOnClick } = useFavoriteContext();
                       <i className="fas fa-download"></i>
                     </button>
                   </Link>
+                  &nbsp;
+                  &nbsp;
+                  &nbsp;
                   <Link className="download">
                     <button onClick={() => addToFavorite(value.img)}>
                       <i className="far fa-bookmark"></i>

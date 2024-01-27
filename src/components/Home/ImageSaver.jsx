@@ -8,7 +8,7 @@ function ImageSaver() {
 
   return (
     <div className="image-saver-wrapper">
-      <SideMenu />
+      {/* <SideMenu /> */}
       <div className="fav-head">
         <h2 className="favorites-heading">Your Favorite Images Collection </h2>
       </div>

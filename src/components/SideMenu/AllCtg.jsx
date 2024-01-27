@@ -5,8 +5,9 @@ import React, { useState } from "react";
 import ImagesData from "../../JSON/animals.json";
 import {Link} from 'react-router-dom'
 import { useFavoriteContext } from "../Context/ImageSaveContext.jsx";
+import { Swiper } from "swiper/react";
 
-const counting = 5000;
+const counting = 100;
 
 function AllCtg() {
 
@@ -24,12 +25,12 @@ const { addToFavorite, downloadOnClick } = useFavoriteContext();
 
   return (
     <div className="animal-wrapper">
-      <SideMenu />
+      {/* <SideMenu /> */}
       <div className="main-content">
         <div className="animal-heading">
           <h2 className="heading">
             All animals Images{" "}
-            <CountUp start={counting} end={14000} duration={10} /> +
+            <CountUp start={counting} end={1000} duration={10} /> +
           </h2>
         </div>
         <div className="categories">

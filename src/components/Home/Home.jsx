@@ -8,7 +8,7 @@ function Home() {
     <div>
         <Welcome />
         <ImageContainer />
-        <SideMenu />
+        {/* <SideMenu /> */}
     </div>
   )
 }
