@@ -110,6 +110,9 @@ function ImageContainer() {
                       <i className="fas fa-download"></i>
                     </button>
                   </Link>
+                  &nbsp;
+                  &nbsp;
+                  &nbsp;
                   <Link className="download">
                     <button onClick={() => addToFavorite(value.img)}>
                       <i className="far fa-bookmark"></i>

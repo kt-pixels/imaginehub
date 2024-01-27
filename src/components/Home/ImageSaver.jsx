@@ -39,6 +39,9 @@ function ImageSaver() {
                         <i className="fas fa-download"></i>
                       </button>
                     </Link>
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
                     <Link className="download">
                       <button onClick={() => removeFromFav(fav)}>
                         <i className="fas fa-bookmark"></i>
