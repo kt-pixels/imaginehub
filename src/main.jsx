@@ -14,7 +14,7 @@ const router = createBrowserRouter(
       <Route path='/boys' element={<Boys />} />
       {/* <Route path='/about' element={<About />} />
       <Route path='/pictures' element={<Pictures />} /> */}
-      <Route path='/favorate' element={<ImageSaver />} />
+      <Route path='/favourite' element={<ImageSaver />} />
     </Route>
   )
 )

@@ -38,7 +38,7 @@
     {
         "id": 7,
         "img": "image/catgirl.jpg",
-        "name": "Girl walking...",
+        "name": "Girl Sketch",
         "Ctg": "Girl"
     },
     {
@@ -50,7 +50,7 @@
     {
         "id": 9,
         "img": "image/croco.jpg",
-        "name": "Croco On Bike",
+        "name": "Alligator",
         "Ctg": "Alligator"
     },
     {
@@ -62,7 +62,7 @@
     {
         "id": 11,
         "img": "image/football.jpg",
-        "name": "Playing Football",
+        "name": "Football",
         "Ctg": "Boy"
     },
     {
@@ -74,7 +74,7 @@
     {
         "id": 13,
         "img": "image/oilele.jpg",
-        "name": "Elephant Art",
+        "name": "Elephant",
         "Ctg": "Elephant"
     },
     {
@@ -104,13 +104,13 @@
     {
         "id": 18,
         "img": "image/whale.jpg",
-        "name": "Whale Fish Art",
+        "name": "Fish Art",
         "Ctg": "Fish"
     },
     {
         "id": 19,
         "img": "image/horse.jpg",
-        "name": "Horse Painting",
+        "name": "Painting",
         "Ctg": "Horse"
     },
     {
@@ -128,7 +128,7 @@
     {
         "id": 22,
         "img": "image/lions (1).jpg",
-        "name": "Lions In Group",
+        "name": "Lions",
         "Ctg": "Lion"
     },
     {
@@ -152,7 +152,7 @@
     {
         "id": 26,
         "img": "image/panda5.jpg",
-        "name": "Sliping Panda",
+        "name": "Sliping",
         "Ctg": "Panda"
     },
     {
@@ -176,31 +176,31 @@
     {
         "id": 30,
         "img": "image/sketchele.jpg",
-        "name": "Elephant Sketch",
+        "name": "Sketch",
         "Ctg": "Elephant"
     },
     {
         "id": 31,
         "img": "image/dog (13).jpg",
-        "name": "BeutyFull Lake",
+        "name": "Lake",
         "Ctg": "Sceneries"
     },
     {
         "id": 32,
         "img": "image/fruitbasket.jpg",
-        "name": "Fruit Basket",
+        "name": "Basket",
         "Ctg": "Fruits"
     },
     {
         "id": 33,
         "img": "image/fruits.jpg",
-        "name": "Fruits Painting",
+        "name": "Fruits",
         "Ctg": "Fruits"
     },
     {
         "id": 34,
         "img": "image/dog (7).jpg",
-        "name": "Dog painting",
+        "name": "Painting",
         "Ctg": "Dog"
     },
     {
@@ -212,13 +212,13 @@
     {
         "id": 36,
         "img": "image/grasshorse.jpg",
-        "name": "Horse Painting",
+        "name": "Painting",
         "Ctg": "Horse"
     },
     {
         "id": 37,
         "img": "image/phant.jpg",
-        "name": "Ele. Painting",
+        "name": "Painting",
         "Ctg": "Elephant"
     },
     {

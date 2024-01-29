@@ -20,63 +20,25 @@ function Header() {
   };
 
   const [translateY, setTranslateY] = useState('-350px');
+  const [none, setNone] = useState('none');
 
   const clickToChange = () => {
-    if(translateY === '-350px'){
-      setTranslateY('70px')
+    if(translateY === '-350px' || none === 'none'){
+      setTranslateY('70px');
+      setNone('flex');
     }else{
-      setTranslateY('-350px')
+      setTranslateY('-350px');
+      setNone('none');
     }
   }
 
   return (
     <section className="head">
-      {/* <div className="header">
-        <div className="logo">
-          <h1 className="logo-heading">ImagineHub</h1>
-        </div>
-        <div className="menus">
-          <li className="menu-lists">
-            <NavLink to="/">Home</NavLink>
-          </li>
-          <li className="menu-lists">
-            <NavLink to="/about">About Us</NavLink>
-          </li>
-          <li className="menu-lists">
-            <NavLink to="pictures">Pictures</NavLink>
-          </li>
-          <li className="menu-lists">
-            <NavLink to="/feedback">Feedback</NavLink>
-          </li>
-        </div>
-
-        <div className="search">
-          <form>
-            <input
-              type="text"
-              name="search"
-              id="search"
-              placeholder="search image..."
-              value={search}
-              onChange={filterSearchValue}
-            />
-          </form>
-          <div className="searchValue">
-            {search &&
-              filter.map((img) => (
-                <div key={img.id}>
-                  <p>{img.name}</p>
-                </div>
-              ))}
-          </div>
-        </div>
-      </div> */}
-
       <header className="main-header nav-header">
         {/* <!-- NAVBAR --> */}
         <nav className="navbar mb-header-container">
           {/* <div className="mb-header-container"> */}
-          <div className="bars" onClick={clickToChange}>
+          <div className="bars" onClick={clickToChange} aria-label="Toggle Menu">
             <div className="bar"></div>
             <div className="bar"></div>
             <div className="bar"></div>
@@ -86,7 +48,7 @@ function Header() {
 
           {/* IN MOBILE VIE HEADER CODE  */}
 
-          <div className="mobile-view-header" style={{transform: `translateY(${translateY})`}}>
+          <div className="mobile-view-header" style={{display: `${none}`, transform: `translateY(${translateY})`}}  aria-hidden={none === 'none'}>
           <ul className="lists">
               <li>
                 <div className="nav-list">
@@ -95,6 +57,7 @@ function Header() {
                     className={({ isActive }) =>
                       `links ${isActive ? "isactive" : ""}`
                     }
+                    aria-current={({ isActive }) => isActive ? "Home page" : undefined}
                   >
                     Home
                   </NavLink>
@@ -108,6 +71,7 @@ function Header() {
                     className={({ isActive }) =>
                       `links ${isActive ? "isactive" : ""}`
                     }
+                    aria-current={({ isActive }) => isActive ? "Animals page" : undefined}
                   >
                     Animals
                   </NavLink>
@@ -121,6 +85,7 @@ function Header() {
                     className={({ isActive }) =>
                       `links ${isActive ? "isactive" : ""}`
                     }
+                    aria-current={({ isActive }) => isActive ? "Boys page" : undefined}
                   >
                     Boys
                   </NavLink>
@@ -130,18 +95,19 @@ function Header() {
               <li>
                 <div className="nav-list">
                   <NavLink
-                    to="/favorate"
+                    to="/favourite"
                     className={({ isActive }) =>
                       `links ${isActive ? "isactive" : ""}`
                     }
+                    aria-current={({ isActive }) => isActive ? "Favourite page" : undefined}
                   >
-                    Favorate
+                    Favourite
                   </NavLink>
                 </div>
               </li>
             </ul>
             <div className="search-bar">
-              <button className="search">
+              <button className="search" aria-label="Search">
                 <i className="fas fa-search"></i>
               </button>
               <form>
@@ -153,6 +119,7 @@ function Header() {
                   placeholder="search image..."
                   value={search}
                   onChange={filterSearchValue}
+                  aria-label="Search for images"
                 />
               </form>
             </div>
