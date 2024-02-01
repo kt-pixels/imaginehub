@@ -33,7 +33,7 @@ const { addToFavorite, downloadOnClick } = useFavoriteContext();
             <CountUp start={counting} end={1000} duration={10} /> +
           </h2>
         </div>
-        <div className="categories">
+        {/* <div className="categories">
           <div className="display-ctg">
             <button className="ctg-btn" onClick={() => setImages(ImagesData)}>All</button>
             <button className="ctg-btn" onClick={() => FilterImages("Lion")}>Lion</button>
@@ -46,7 +46,7 @@ const { addToFavorite, downloadOnClick } = useFavoriteContext();
             <button className="ctg-btn" onClick={() => FilterImages("Cat")}>Cat</button>
             <button className="ctg-btn" onClick={() => FilterImages("Elephant")}>Elephant</button>
           </div>
-        </div>
+        </div> */}
 
         <div className="animals-images">
         <section className="images-container all-images">

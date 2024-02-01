@@ -1,14 +1,19 @@
 import React, { useState, useEffect } from "react";
 import Images from "../../images.json";
-import { Link } from "react-router-dom";
+import ClickImage from "./ClickImage.jsx";
+import { Link, NavLink } from "react-router-dom";
 import { useFavoriteContext } from "../Context/ImageSaveContext.jsx";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
+import { useClickImage } from "../Context/ClickImageContext.jsx";
 
 // Install Swiper modules
 // SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 function ImageContainer() {
+
+  const {handleImageClick} = useClickImage()
+
   // FOR IMAGE RENDARING AND FILTERING
   const [category, setCategory] = useState(Images);
 
@@ -48,7 +53,11 @@ function ImageContainer() {
       }}
       >
         <SwiperSlide className="ul" onClick={() => setCategory(Images)}>
-          <img src="image/buety.jpg" alt="" width={65} />
+          <img 
+          src="image/buety.jpg" 
+          alt="" 
+          width={65}
+          />
           <p>All</p>
         </SwiperSlide>
         <SwiperSlide className="ul" onClick={() => filterCtg("Fruits")}>
@@ -97,6 +106,7 @@ function ImageContainer() {
                 src={value.img}
                 alt=""
                 className="image-here"
+                onClick={handleImageClick}
               />
 
               <div className="text">

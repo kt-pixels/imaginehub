@@ -1,0 +1,43 @@
+.categories{
+    margin-block: 10px;
+}
+
+.all-display-ctg{
+    display: flex !important;
+    gap: 10px;
+    margin: 20px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.all-display-ctg .ctg-btn{
+    background-color: rgba(255, 255, 255, 0.286);
+    backdrop-filter: blur(20px);
+    padding: 8px;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    transition: all .3s ease-in-out;
+}
+
+.ctg-active{
+    background-color: rgba(255, 255, 255, 0.149);
+    border: 1px solid white;
+}
+
+/* .all-display-ctg .swiper-wrapper {
+    justify-content: center;
+} */
+
+.ctg-btn>button{
+    background-color: transparent;
+    border: none;
+    border-radius: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+

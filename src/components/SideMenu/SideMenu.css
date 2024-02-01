@@ -25,16 +25,6 @@ font-family: 'Ubuntu', sans-serif;
     margin-block-end: 30px;
 }
 
-.animal-heading .heading::after{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    background-color: aliceblue;
-    left: 0;
-    top: 12rem;
-}
-
 .display-ctg{
     display: flex;
     flex-direction: row;
@@ -72,9 +62,6 @@ font-family: 'Ubuntu', sans-serif;
     text-align: center;
     }
 
-    .animal-heading .heading::after {
-        display: none;
-    }
 }
 
 @media only screen and (max-width: 500px){

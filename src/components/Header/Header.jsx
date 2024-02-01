@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import Images from "../../images.json";
+import AllPages from "./AllPages";
 import "../MainStyle.css";
 
 function Header() {
-
   // SEARCH FUNCTIONALITY
   const [search, setSearch] = useState("");
   const [filter, setFilter] = useState(Images);
@@ -19,18 +19,31 @@ function Header() {
     setFilter(filterInput);
   };
 
-  const [translateY, setTranslateY] = useState('-350px');
-  const [none, setNone] = useState('none');
+  // For navbar
+  const [translateY, setTranslateY] = useState("-350px");
+  const [none, setNone] = useState("none");
 
   const clickToChange = () => {
-    if(translateY === '-350px' || none === 'none'){
-      setTranslateY('70px');
-      setNone('flex');
-    }else{
-      setTranslateY('-350px');
-      setNone('none');
+    if (translateY === "-350px" || none === "none") {
+      setTranslateY("70px");
+      setNone("flex");
+    } else {
+      setTranslateY("-350px");
+      setNone("none");
     }
-  }
+  };
+
+  // For exploring page
+
+  const [disNone, setDisNone] = useState("none");
+
+  const block = () => {
+    if (disNone === "none") {
+      setDisNone("block");
+    }else{
+      setDisNone('none')
+    }
+  };
 
   return (
     <section className="head">
@@ -38,18 +51,28 @@ function Header() {
         {/* <!-- NAVBAR --> */}
         <nav className="navbar mb-header-container">
           {/* <div className="mb-header-container"> */}
-          <div className="bars" onClick={clickToChange} aria-label="Toggle Menu">
+          <div
+            className="bars"
+            onClick={clickToChange}
+            aria-label="Toggle Menu"
+          >
             <div className="bar"></div>
             <div className="bar"></div>
             <div className="bar"></div>
           </div>
           <div className="mb-logo">ImagineHub</div>
 
-
           {/* IN MOBILE VIE HEADER CODE  */}
 
-          <div className="mobile-view-header" style={{display: `${none}`, transform: `translateY(${translateY})`}}  aria-hidden={none === 'none'}>
-          <ul className="lists">
+          <div
+            className="mobile-view-header"
+            style={{
+              display: `${none}`,
+              transform: `translateY(${translateY})`,
+            }}
+            aria-hidden={none === "none"}
+          >
+            <ul className="lists">
               <li>
                 <div className="nav-list">
                   <NavLink
@@ -57,37 +80,11 @@ function Header() {
                     className={({ isActive }) =>
                       `links ${isActive ? "isactive" : ""}`
                     }
-                    aria-current={({ isActive }) => isActive ? "Home page" : undefined}
+                    aria-current={({ isActive }) =>
+                      isActive ? "Home page" : undefined
+                    }
                   >
                     Home
-                  </NavLink>
-                </div>
-              </li>
-
-              <li>
-                <div className="nav-list">
-                  <NavLink
-                    to="/animals"
-                    className={({ isActive }) =>
-                      `links ${isActive ? "isactive" : ""}`
-                    }
-                    aria-current={({ isActive }) => isActive ? "Animals page" : undefined}
-                  >
-                    Animals
-                  </NavLink>
-                </div>
-              </li>
-
-              <li>
-                <div className="nav-list">
-                  <NavLink
-                    to="/boys"
-                    className={({ isActive }) =>
-                      `links ${isActive ? "isactive" : ""}`
-                    }
-                    aria-current={({ isActive }) => isActive ? "Boys page" : undefined}
-                  >
-                    Boys
                   </NavLink>
                 </div>
               </li>
@@ -99,7 +96,9 @@ function Header() {
                     className={({ isActive }) =>
                       `links ${isActive ? "isactive" : ""}`
                     }
-                    aria-current={({ isActive }) => isActive ? "Favourite page" : undefined}
+                    aria-current={({ isActive }) =>
+                      isActive ? "Favourite page" : undefined
+                    }
                   >
                     Favourite
                   </NavLink>
@@ -125,7 +124,6 @@ function Header() {
             </div>
           </div>
 
-
           {/* </div> */}
           <div className="header-container">
             <div className="logo">
@@ -139,6 +137,9 @@ function Header() {
                     className={({ isActive }) =>
                       `links ${isActive ? "isactive" : ""}`
                     }
+                    aria-current={({ isActive }) =>
+                      isActive ? "Home page" : undefined
+                    }
                   >
                     Home
                   </NavLink>
@@ -148,38 +149,15 @@ function Header() {
               <li>
                 <div className="nav-list">
                   <NavLink
-                    to="/animals"
+                    to="/favourite"
                     className={({ isActive }) =>
                       `links ${isActive ? "isactive" : ""}`
                     }
-                  >
-                    Animals
-                  </NavLink>
-                </div>
-              </li>
-
-              <li>
-                <div className="nav-list">
-                  <NavLink
-                    to="/boys"
-                    className={({ isActive }) =>
-                      `links ${isActive ? "isactive" : ""}`
+                    aria-current={({ isActive }) =>
+                      isActive ? "Favourite page" : undefined
                     }
                   >
-                    Boys
-                  </NavLink>
-                </div>
-              </li>
-
-              <li>
-                <div className="nav-list">
-                  <NavLink
-                    to="/favorate"
-                    className={({ isActive }) =>
-                      `links ${isActive ? "isactive" : ""}`
-                    }
-                  >
-                    Favorate
+                    Favourite
                   </NavLink>
                 </div>
               </li>
@@ -202,20 +180,19 @@ function Header() {
             </div>
 
             {/* Admins details */}
-            <div className="admin-details">
-              <div className="profile">
-                <button className="btn">
-                  <i className="fas fa-user-edit"></i>
-                </button>
-              </div>
-              <div className="settings">
-                <button className="btn">
-                  <i className="fas fa-cogs"></i>
-                </button>
-              </div>
+          </div>
+          <div className="admin-details">
+            <div className="profile">
+              <button className="btn">
+                <i className="fas fa-user-edit"></i>
+              </button>
+            </div>
+            <div className="settings">
+              <button className="btn" onClick={block}>
+                <i className="fas fa-images"></i>
+              </button>
             </div>
           </div>
-
           {/* */}
         </nav>
       </header>
@@ -228,6 +205,10 @@ function Header() {
             </div>
           ))}
       </div>
+
+      {/* All pages links  */}
+
+      <AllPages />
     </section>
   );
 }
