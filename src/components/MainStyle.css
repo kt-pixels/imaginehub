@@ -29,6 +29,16 @@ body{
 
 /* MAIN HEADER STYLE */
 
+.circle1{
+    background-color: rgba(255, 255, 255, 0.402);
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1000;
+    filter: blur(200px);
+}
 
 .header{
     display: flex;
@@ -99,7 +109,7 @@ body{
     outline: none;
     transition: 0.3s ease-in;
     background-color: #000020c7;
-    padding: 10px;
+    padding: 8px;
     color: white;
 }
 
@@ -130,7 +140,7 @@ body{
   }
 
 .admin-details{
-    display: flex;
+    display: none;
     align-items: center;
     gap: 30px;
 }

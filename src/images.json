@@ -1,238 +1,338 @@
 [
-    {
-        "id": 1,
-        "img": "image/alligator.jpg",
-        "name": "Alligator",
-        "Ctg": "Alligator"
-    },
-    {
-        "id": 2,
-        "img": "image/fruit.jpg",
-        "name": "Fruit Basket",
-        "Ctg": "Fruits"
-    },
-    {
-        "id": 3,
-        "img": "image/angryface.jpg",
-        "name": "Cat Sketch",
-        "Ctg": "Cat"
-    },
-    {
-        "id": 4,
-        "img": "image/apple.jpg",
-        "name": "Fruits Art",
-        "Ctg": "Fruits"
-    },
-    {
-        "id": 5,
-        "img": "image/butter-fly.jpg",
-        "name": "ButterFly",
-        "Ctg": "Butterfly"
-    },
-    {
-        "id": 6,
-        "img": "image/car.jpg",
-        "name": "Car",
-        "Ctg": "Car"
-    },
-    {
-        "id": 7,
-        "img": "image/catgirl.jpg",
-        "name": "Girl Sketch",
-        "Ctg": "Girl"
-    },
-    {
-        "id": 8,
-        "img": "image/cats.jpg",
-        "name": "Cat Sketch",
-        "Ctg": "Cat"
-    },
-    {
-        "id": 9,
-        "img": "image/croco.jpg",
-        "name": "Alligator",
-        "Ctg": "Alligator"
-    },
-    {
-        "id": 10,
-        "img": "image/dogart.jpg",
-        "name": "Dog Art",
-        "Ctg": "Dog"
-    },
-    {
-        "id": 11,
-        "img": "image/football.jpg",
-        "name": "Football",
-        "Ctg": "Boy"
-    },
-    {
-        "id": 12,
-        "img": "image/girlcoding.jpg",
-        "name": "Girl coding",
-        "Ctg": "Girl"
-    },
-    {
-        "id": 13,
-        "img": "image/oilele.jpg",
-        "name": "Elephant",
-        "Ctg": "Elephant"
-    },
-    {
-        "id": 14,
-        "img": "image/orange.jpg",
-        "name": "Oranges",
-        "Ctg": "Fruits"
-    },
-    {
-        "id": 15,
-        "img": "image/lakes.jpg",
-        "name": "Lake",
-        "Ctg": "Sceneries"
-    },
-    {
-        "id": 16,
-        "img": "image/panda.jpg",
-        "name": "Panda",
-        "Ctg": "Panda"
-    },
-    {
-        "id": 17,
-        "img": "image/icecream.jpg",
-        "name": "Ice Cream",
-        "Ctg": "Food"
-    },
-    {
-        "id": 18,
-        "img": "image/whale.jpg",
-        "name": "Fish Art",
-        "Ctg": "Fish"
-    },
-    {
-        "id": 19,
-        "img": "image/horse.jpg",
-        "name": "Painting",
-        "Ctg": "Horse"
-    },
-    {
-        "id": 20,
-        "img": "image/lake.jpg",
-        "name": "Lake",
-        "Ctg": "Sceneries"
-    },
-    {
-        "id": 21,
-        "img": "image/happyboy.jpg",
-        "name": "Happy Boy",
-        "Ctg": "Boy"
-    },
-    {
-        "id": 22,
-        "img": "image/lions (1).jpg",
-        "name": "Lions",
-        "Ctg": "Lion"
-    },
-    {
-        "id": 23,
-        "img": "image/skybirds.jpg",
-        "name": "Nature Art",
-        "Ctg": "Sceneries"
-    },
-    {
-        "id": 24,
-        "img": "image/robot.jpg",
-        "name": "Robot",
-        "Ctg": "All"
-    },
-    {
-        "id": 25,
-        "img": "image/supera.jpg",
-        "name": "Supra",
-        "Ctg": "Car"
-    },
-    {
-        "id": 26,
-        "img": "image/panda5.jpg",
-        "name": "Sliping",
-        "Ctg": "Panda"
-    },
-    {
-        "id": 27,
-        "img": "image/oilphant.jpg",
-        "name": "Oil Art",
-        "Ctg": "Elephant"
-    },
-    {
-        "id": 28,
-        "img": "image/dog (6).jpg",
-        "name": "Doggy",
-        "Ctg": "Dog"
-    },
-    {
-        "id": 29,
-        "img": "image/boy1.jpg",
-        "name": "😊",
-        "Ctg": "Boy"
-    },
-    {
-        "id": 30,
-        "img": "image/sketchele.jpg",
-        "name": "Sketch",
-        "Ctg": "Elephant"
-    },
-    {
-        "id": 31,
-        "img": "image/dog (13).jpg",
-        "name": "Lake",
-        "Ctg": "Sceneries"
-    },
-    {
-        "id": 32,
-        "img": "image/fruitbasket.jpg",
-        "name": "Basket",
-        "Ctg": "Fruits"
-    },
-    {
-        "id": 33,
-        "img": "image/fruits.jpg",
-        "name": "Fruits",
-        "Ctg": "Fruits"
-    },
-    {
-        "id": 34,
-        "img": "image/dog (7).jpg",
-        "name": "Painting",
-        "Ctg": "Dog"
-    },
-    {
-        "id": 35,
-        "img": "image/boy3.jpg",
-        "name": "Anime Boy",
-        "Ctg": "Boy"
-    },
-    {
-        "id": 36,
-        "img": "image/grasshorse.jpg",
-        "name": "Painting",
-        "Ctg": "Horse"
-    },
-    {
-        "id": 37,
-        "img": "image/phant.jpg",
-        "name": "Painting",
-        "Ctg": "Elephant"
-    },
-    {
-        "id": 38,
-        "img": "image/panda3.jpg",
-        "name": "Sleeping",
-        "Ctg": "Panda"
-    },
-    {
-        "id": 39,
-        "img": "image/sky(2).jpg",
-        "name": "Birds",
-        "Ctg": "Sceneries"
-    }
-    
-    
+  {
+    "id": 1,
+    "img": "image/alligator.jpg",
+    "name": "Alligator",
+    "Ctg": "Alligator"
+  },
+  {
+    "id": 2,
+    "img": "image/fruit.jpg",
+    "name": "Fruit Basket",
+    "Ctg": "Fruits"
+  },
+  {
+    "id": 3,
+    "img": "image/angryface.jpg",
+    "name": "Cat Sketch",
+    "Ctg": "Cat"
+  },
+  {
+      "id": 49,
+      "img": "Asstes/Boys/16.jpeg",
+      "Ctg": "Boy",
+      "name": "..."
+  },
+  {
+    "id": 4,
+    "img": "image/apple.jpg",
+    "name": "Fruits Art",
+    "Ctg": "Fruits"
+  },
+  {
+    "id": 40,
+    "img": "Asstes/Bull/15.jpeg",
+    "Ctg": "Bull",
+    "name": "..."
+  },
+  {
+    "id": 5,
+    "img": "image/butter-fly.jpg",
+    "name": "ButterFly",
+    "Ctg": "Butterfly"
+  },
+  {
+    "id": 41,
+    "img": "Asstes/Dog/9.jpg",
+    "Ctg": "Dogs",
+    "name": "..."
+  },
+  {
+    "id": 6,
+    "img": "image/car.jpg",
+    "name": "Car",
+    "Ctg": "Car"
+  },
+  {
+    "id": 7,
+    "img": "image/catgirl.jpg",
+    "name": "Girl Sketch",
+    "Ctg": "Girl"
+  },
+  {
+    "id": 42,
+    "img": "Asstes/Bear/4.jpeg",
+    "Ctg": "Bear",
+    "name": "..."
+  },
+  {
+    "id": 8,
+    "img": "image/cats.jpg",
+    "name": "Cat Sketch",
+    "Ctg": "Cat"
+  },
+  {
+    "id": 9,
+    "img": "image/croco.jpg",
+    "name": "Alligator",
+    "Ctg": "Alligator"
+  },
+  {
+    "id": 51,
+    "img": "Asstes/Flower/1.jpeg",
+    "Ctg": "Flowers",
+    "name": "..."
+},
+  {
+    "id": 10,
+    "img": "image/dogart.jpg",
+    "name": "Dog Art",
+    "Ctg": "Dog"
+  },
+  {
+    "id": 11,
+    "img": "image/football.jpg",
+    "name": "Football",
+    "Ctg": "Boy"
+  },
+  {
+    "id": 12,
+    "img": "image/girlcoding.jpg",
+    "name": "Girl coding",
+    "Ctg": "Girl"
+  },
+  {
+    "id": 13,
+    "img": "image/oilele.jpg",
+    "name": "Elephant",
+    "Ctg": "Elephant"
+  },
+  {
+    "id": 14,
+    "img": "image/orange.jpg",
+    "name": "Oranges",
+    "Ctg": "Fruits"
+  },
+  {
+    "id": 15,
+    "img": "image/lakes.jpg",
+    "name": "Lake",
+    "Ctg": "Sceneries"
+  },
+  {
+    "id": 16,
+    "img": "image/panda.jpg",
+    "name": "Panda",
+    "Ctg": "Panda"
+  },
+  {
+    "id": 43,
+    "img": "Asstes/Lion/7.jpeg",
+    "Ctg": "Lion",
+    "name": "..."
+  },
+  {
+      "id": 50,
+      "img": "Asstes/Flower/2.jpeg",
+      "Ctg": "Flowers",
+      "name": "..."
+  },
+  {
+    "id": 17,
+    "img": "image/icecream.jpg",
+    "name": "Ice Cream",
+    "Ctg": "Food"
+  },
+  {
+    "id": 48,
+    "img": "Asstes/Boys/1.jpeg",
+    "Ctg": "Boy",
+    "name": "..."
+},
+  {
+      "id": 44,
+      "img": "Asstes/Elephant/1.jpeg",
+      "Ctg": "Elephant",
+      "name": "..."
+  },
+  {
+    "id": 18,
+    "img": "image/whale.jpg",
+    "name": "Fish Art",
+    "Ctg": "Fish"
+  },
+  {
+      "id": 45,
+      "img": "Asstes/Croco/6.jpeg",
+      "Ctg": "Alligator",
+      "name": "Stylish"
+  },
+  {
+    "id": 19,
+    "img": "image/horse.jpg",
+    "name": "Painting",
+    "Ctg": "Horse"
+  },
+  {
+    "id": 20,
+    "img": "image/lake.jpg",
+    "name": "Lake",
+    "Ctg": "Sceneries"
+  },
+  {
+    "id": 21,
+    "img": "image/happyboy.jpg",
+    "name": "Happy Boy",
+    "Ctg": "Boy"
+  },
+  {
+    "id": 22,
+    "img": "image/lions (1).jpg",
+    "name": "Lions",
+    "Ctg": "Lion"
+  },
+  {
+    "id": 23,
+    "img": "image/skybirds.jpg",
+    "name": "Nature Art",
+    "Ctg": "Sceneries"
+  },
+  {
+    "id": 24,
+    "img": "image/robot.jpg",
+    "name": "Robot",
+    "Ctg": "All"
+  },
+  {
+      "id": 52,
+      "img": "Asstes/Flower/7.jpeg",
+      "Ctg": "Flowers",
+      "name": "..."
+  },
+  {
+    "id": 25,
+    "img": "image/supera.jpg",
+    "name": "Supra",
+    "Ctg": "Car"
+  },
+  {
+      "id": 47,
+      "img": "Asstes/Boys/4.jpeg",
+      "Ctg": "Boy",
+      "name": "..."
+  },
+  {
+    "id": 26,
+    "img": "image/panda5.jpg",
+    "name": "Sliping",
+    "Ctg": "Panda"
+  },
+  {
+      "id": 56,
+      "img": "Asstes/Girls/5.jpeg",
+      "Ctg": "Girls",
+      "name": "..."
+  },
+  {
+    "id": 27,
+    "img": "image/oilphant.jpg",
+    "name": "Oil Art",
+    "Ctg": "Elephant"
+  },
+  {
+    "id": 28,
+    "img": "image/dog (6).jpg",
+    "name": "Doggy",
+    "Ctg": "Dog"
+  },
+  {
+    "id": 29,
+    "img": "image/boy1.jpg",
+    "name": "😊",
+    "Ctg": "Boy"
+  },
+  {
+    "id": 30,
+    "img": "image/sketchele.jpg",
+    "name": "Sketch",
+    "Ctg": "Elephant"
+  },
+  {
+    "id": 31,
+    "img": "image/dog (13).jpg",
+    "name": "Lake",
+    "Ctg": "Sceneries"
+  },
+  {
+      "id": 55,
+      "img": "Asstes/Girls/7.jpeg",
+      "Ctg": "Girls",
+      "name": "..."
+  },
+  {
+    "id": 32,
+    "img": "image/fruitbasket.jpg",
+    "name": "Basket",
+    "Ctg": "Fruits"
+  },
+  {
+      "id": 54,
+      "img": "Asstes/Flower/6.jpeg",
+      "Ctg": "Flowers",
+      "name": "..."
+  },
+  {
+      "id": 53,
+      "img": "Asstes/Flower/3.jpeg",
+      "Ctg": "Flowers",
+      "name": "..."
+  },
+  {
+    "id": 33,
+    "img": "image/fruits.jpg",
+    "name": "Fruits",
+    "Ctg": "Fruits"
+  },
+  {
+    "id": 34,
+    "img": "image/dog (7).jpg",
+    "name": "Painting",
+    "Ctg": "Dog"
+  },
+  {
+    "id": 35,
+    "img": "image/boy3.jpg",
+    "name": "Anime Boy",
+    "Ctg": "Boy"
+  },
+  {
+      "id": 46,
+      "img": "Asstes/Croco/5.jpeg",
+      "Ctg": "Alligator",
+      "name": "..."
+  },
+  {
+    "id": 36,
+    "img": "image/grasshorse.jpg",
+    "name": "Painting",
+    "Ctg": "Horse"
+  },
+  {
+    "id": 37,
+    "img": "image/phant.jpg",
+    "name": "Painting",
+    "Ctg": "Elephant"
+  },
+  {
+    "id": 38,
+    "img": "image/panda3.jpg",
+    "name": "Sleeping",
+    "Ctg": "Panda"
+  },
+  {
+    "id": 39,
+    "img": "image/sky(2).jpg",
+    "name": "Birds",
+    "Ctg": "Sceneries"
+  }
 ]

@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1",
+        "img": "Asstes/Girls/4.jpeg",
+        "Ctg": "Girls",
+        "name": "..."
+    },
+    {
+        "id": "2",
+        "img": "Asstes/Girls/3.jpeg",
+        "Ctg": "Girls",
+        "name": "..."
+    },
+    {
+        "id": "3",
+        "img": "Asstes/Girls/7.jpeg",
+        "Ctg": "Girls",
+        "name": "..."
+    },
+    {
+        "id": "4",
+        "img": "Asstes/Girls/1.jpg",
+        "Ctg": "Girls",
+        "name": "..."
+    },
+    {
+        "id": "5",
+        "img": "Asstes/Girls/8.jpeg",
+        "Ctg": "Girls",
+        "name": "..."
+    },
+    {
+        "id": "6",
+        "img": "Asstes/Girls/9.jpeg",
+        "Ctg": "Girls",
+        "name": "..."
+    },
+    {
+        "id": "7",
+        "img": "Asstes/Girls/10.jpeg",
+        "Ctg": "Girls",
+        "name": "..."
+    },
+    {
+        "id": "8",
+        "img": "Asstes/Girls/6.jpeg",
+        "Ctg": "Girls",
+        "name": "..."
+    }
+]

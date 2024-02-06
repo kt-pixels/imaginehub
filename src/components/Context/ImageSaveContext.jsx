@@ -25,11 +25,19 @@ export const FavoritesProvider = ({children}) => {
         localStorage.setItem('Favorite', JSON.stringify(FavImage));
     }, [FavImage])
 
-
+    const isImageAlreaySaved = (imageUrl) => {
+        return FavImage.includes(imageUrl);
+    }
+ 
     //  ADD IMAGES
 
     const addToFavorite = (imageUrl) => {
-        setFavImage((prevImage) => [...prevImage, imageUrl])
+        if(!isImageAlreaySaved(imageUrl)){
+            setFavImage((prevImage) => [...prevImage, imageUrl]);
+            alert('Image Saved Successfull')
+        }else{
+            alert('This Image Is Already In Your Collection')
+        }
     }
 
     // Remove image from fav.

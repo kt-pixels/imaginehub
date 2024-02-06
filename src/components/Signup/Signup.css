@@ -1,0 +1,30 @@
+.singup-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.title{
+    margin-block-end: 20px;
+}
+
+.singup-form>input{
+    margin-block-end: 20px;
+    outline: none;
+    border: 1px solid gray;
+    padding: 5px;
+    color: gray;
+}
+
+.singup-form>button{
+    padding: 5px;
+    color: white;
+    background-color: brown;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    width: 15%;
+    cursor: pointer;
+}

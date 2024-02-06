@@ -1,18 +1,15 @@
 import React, { useState, useEffect } from "react";
 import Images from "../../images.json";
-import ClickImage from "./ClickImage.jsx";
 import { Link, NavLink } from "react-router-dom";
 import { useFavoriteContext } from "../Context/ImageSaveContext.jsx";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
-import { useClickImage } from "../Context/ClickImageContext.jsx";
+import { useOpenedImage } from '../Context/ClickImageContext';
 
-// Install Swiper modules
-// SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 function ImageContainer() {
 
-  const {handleImageClick} = useClickImage()
+  const {handleClick} = useOpenedImage();
 
   // FOR IMAGE RENDARING AND FILTERING
   const [category, setCategory] = useState(Images);
@@ -25,6 +22,8 @@ function ImageContainer() {
   };
 
   const { addToFavorite, downloadOnClick } = useFavoriteContext();
+
+
 
 
   return (
@@ -102,12 +101,14 @@ function ImageContainer() {
         <div className="img-container">
           {category.map((value) => (
             <div key={value.id} className="image">
+              <NavLink to={`/${value.id}`}>
               <img
                 src={value.img}
                 alt=""
                 className="image-here"
-                onClick={handleImageClick}
+                onClick={()=> handleClick(value.img)}
               />
+              </NavLink>
 
               <div className="text">
                 <div className="img-text">

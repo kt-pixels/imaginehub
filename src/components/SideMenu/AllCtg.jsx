@@ -3,15 +3,17 @@ import CountUp from "react-countup";
 import "./SideMenu.css";
 import React, { useState } from "react";
 import ImagesData from "../../JSON/animals.json";
-import {Link} from 'react-router-dom'
+import {Link, NavLink} from 'react-router-dom'
 import { useFavoriteContext } from "../Context/ImageSaveContext.jsx";
 import { Swiper } from "swiper/react";
+import { useOpenedImage } from '../Context/ClickImageContext';
 
 const counting = 100;
 
 function AllCtg() {
 
 const { addToFavorite, downloadOnClick } = useFavoriteContext();
+const {handleClick} = useOpenedImage();
 
 
   const [images, setImages] = useState(ImagesData);
@@ -25,6 +27,7 @@ const { addToFavorite, downloadOnClick } = useFavoriteContext();
 
   return (
     <div className="animal-wrapper">
+      <div className="circle1"></div>
       {/* <SideMenu /> */}
       <div className="main-content">
         <div className="animal-heading">
@@ -53,11 +56,14 @@ const { addToFavorite, downloadOnClick } = useFavoriteContext();
         <div className="img-container">
           {images.map((value) => (
             <div key={value.id} className="image">
+              <NavLink to={`/${value.id}`}>
               <img
                 src={value.img}
                 alt=""
                 className="image-here"
+                onClick={()=> handleClick(value.img)}
               />
+              </NavLink>
 
               <div className="text">
                 <div className="img-text">

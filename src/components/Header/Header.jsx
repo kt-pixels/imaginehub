@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import Images from "../../images.json";
 import AllPages from "./AllPages";
 import "../MainStyle.css";
@@ -8,6 +8,17 @@ function Header() {
   // SEARCH FUNCTIONALITY
   const [search, setSearch] = useState("");
   const [filter, setFilter] = useState(Images);
+
+  // If user is not present or loged in 
+
+  const navigate = useNavigate()
+
+  const logout = ()=> {
+    localStorage.removeItem('user');
+    navigate('/sign-up')
+    console.log('logout success');
+  }
+
 
   const filterSearchValue = (e) => {
     const searchInput = e.target.value;
@@ -40,8 +51,8 @@ function Header() {
   const block = () => {
     if (disNone === "none") {
       setDisNone("block");
-    }else{
-      setDisNone('none')
+    } else {
+      setDisNone("none");
     }
   };
 
@@ -188,9 +199,11 @@ function Header() {
               </button>
             </div>
             <div className="settings">
-              <button className="btn" onClick={block}>
-                <i className="fas fa-images"></i>
-              </button>
+              <NavLink onClick={logout}>
+                <button className="btn">
+                  <i className="fas fa-power-off"></i>
+                </button>
+              </NavLink>
             </div>
           </div>
           {/* */}
