@@ -9,6 +9,10 @@ function ClickImage() {
   const { openedImage, removeImage, downloadImage } = useOpenedImage();
   const { addToFavorite } = useFavoriteContext();
 
+  const { imgId } = useParams();
+
+  console.log("Image ID:", imgId);
+
   const shareLink = "https://imaginehub.netlify.app/";
 
   const shareLinkCopy = useRef(null);
