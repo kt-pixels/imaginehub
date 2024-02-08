@@ -58,7 +58,7 @@ export const OpenedImageProvider = ({ children }) => {
     // Load the saved image URL from local storage on component mount
     const savedImage = JSON.parse(localStorage.getItem('selectedImage')) || [];
     setOpenedImage(savedImage); // Set to empty string if not found
-  }, [savedImage]);
+  }, []);
 
   // Context value to be provided to consumers
   const contextValue = {
