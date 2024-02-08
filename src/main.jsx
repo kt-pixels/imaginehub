@@ -14,7 +14,7 @@ import {
   AllCtg,
   Boys,
   Girls,
-  ClickImage,
+  // ClickImage,
   Flowers,
   Birds,
   Insects,
@@ -25,7 +25,7 @@ import {
   Login,
 } from "./components/index.js";
 import { FavoritesProvider } from "./components/Context/ImageSaveContext.jsx";
-import { OpenedImageProvider } from "./components/Context/ClickImageContext.jsx";
+// import { OpenedImageProvider } from "./components/Context/ClickImageContext.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -33,7 +33,7 @@ const router = createBrowserRouter(
       <Route element={<Private />}>
       <Route path="" element={<App />}>
         <Route path="/" element={<Home />} />
-        <Route path="/:imgId" element={<ClickImage />} />
+        {/* <Route path="/:imgId" element={<ClickImage />} /> */}
         <Route path="/animals" element={<AllCtg />} />
         <Route path="/boys" element={<Boys />} />
         <Route path="/girls" element={<Girls />} />
@@ -54,9 +54,9 @@ const router = createBrowserRouter(
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <FavoritesProvider>
-      <OpenedImageProvider>
+      {/* <OpenedImageProvider> */}
         <RouterProvider router={router} />
-      </OpenedImageProvider>
+      {/* </OpenedImageProvider> */}
     </FavoritesProvider>
   </React.StrictMode>
 );
