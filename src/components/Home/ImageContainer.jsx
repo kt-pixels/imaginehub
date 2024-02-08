@@ -101,7 +101,7 @@ function ImageContainer() {
         <div className="img-container">
           {category.map((value) => (
             <div key={value.id} className="image">
-              <NavLink to={`/&{value.id}`}>
+              <NavLink to={`/${value.id}`}>
               <img
                 src={value.img}
                 alt=""
