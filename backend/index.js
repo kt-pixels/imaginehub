@@ -6,6 +6,11 @@ const users = require('./db/users')
 
 app.use(express.json())
 app.use(cors())
+app.use(express.static(path.join(__dirname, 'build')));
+
+app.get('/*', function(req, res) {
+  res.sendFile(path.join(__dirname, 'vite build', 'index.html'));
+});
 
 app.post('/signup',async (req,res)=> {
     let user = new users(req.body)
