@@ -1,8 +1,15 @@
 import React from "react";
 import "./Footer.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+
 
 function Footer() {
+
+  const navigate = useNavigate()
+
+  const gotoHome = () => {
+    navigate('/')
+  }
   return (
     <footer className="footer-container">
       <div className="categories">
@@ -42,7 +49,7 @@ function Footer() {
               placeholder="Enter your contact number"
             />
             <textarea name="message" placeholder="Message..."></textarea>
-            <button type="submit">Submit</button>
+            <button type="submit" onClick={gotoHome}>Submit</button>
           </form>
         </div>
       </div>
