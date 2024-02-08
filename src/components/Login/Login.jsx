@@ -41,6 +41,7 @@ function Login() {
   return (
     <div className="singup-form">
       <h1 className="title">Loggin</h1>
+      <form>
       <input
         type="email"
         placeholder="Enter your email"
@@ -54,6 +55,7 @@ function Login() {
         onChange={(e) => setPassword(e.target.value)}
       />
       <button onClick={loggin}>Login</button>
+      </form>
       <p>Don't have any account? <Link to='/sign-up'>SignUp</Link></p>
     </div>
   )

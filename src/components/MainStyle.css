@@ -140,7 +140,7 @@ body{
   }
 
 .admin-details{
-    display: none;
+    display: flex;
     align-items: center;
     gap: 30px;
 }
@@ -152,6 +152,7 @@ body{
     padding: 8px;
     background-color: #000020c7;
     color: white;
+    cursor: pointer;
 }
 
 .settings .btn{
@@ -161,6 +162,7 @@ body{
     border-radius: 10px;
     padding: 8px;
     color: white;
+    cursor: pointer;
 }
 
 ::-webkit-scrollbar{
@@ -498,6 +500,11 @@ body{
     display: none;
 }
 
+.admin-details-mb{
+    display: flex;
+    gap: 20px;
+}
+
 @media only screen and (max-width: 1134px){
     .header-container {
         gap: 40px;
@@ -520,7 +527,7 @@ body{
     /* Mobile header view */
     .mobile-view-header{
         display: flex;
-        gap: 60px;
+        gap: 40px;
         align-items: center;
         transition: all .3s ease-in-out;
         position: absolute;

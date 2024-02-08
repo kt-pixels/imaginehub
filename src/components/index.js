@@ -11,9 +11,9 @@ import Flowers from "./SideMenu/Flowers";
 import Insects from "./SideMenu/Insects";
 import Food from "./SideMenu/Food";
 import Cars from "./SideMenu/Cars";
-// import Signup from "./Signup/Signup";
-// import Login from "./Login/Login";
-// import Private from "./Private/Private";
+import Signup from "./Signup/Signup";
+import Login from "./Login/Login";
+import Private from "./Private/Private";
 
 export {
   Header,
@@ -29,7 +29,7 @@ export {
   Insects,
   Food,
   Cars,
-  // Signup,
-  // Login,
-  // Private,
+  Signup,
+  Login,
+  Private,
 };

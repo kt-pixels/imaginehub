@@ -9,16 +9,15 @@ function Header() {
   const [search, setSearch] = useState("");
   const [filter, setFilter] = useState(Images);
 
-  // If user is not present or loged in 
+  // If user is not present or loged in
 
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
-  const logout = ()=> {
-    localStorage.removeItem('user');
-    navigate('/sign-up')
-    console.log('logout success');
-  }
-
+  const logout = () => {
+    localStorage.removeItem("user");
+    navigate("/sign-up");
+    console.log("logout success");
+  };
 
   const filterSearchValue = (e) => {
     const searchInput = e.target.value;
@@ -133,6 +132,20 @@ function Header() {
                 />
               </form>
             </div>
+            <div className="admin-details-mb">
+              <div className="profile">
+                <button className="btn">
+                  <i className="fas fa-user-edit"></i>
+                </button>
+              </div>
+              <div className="settings">
+                <NavLink onClick={logout}>
+                  <button className="btn">
+                    <i className="fas fa-power-off"></i>
+                  </button>
+                </NavLink>
+              </div>
+            </div>
           </div>
 
           {/* </div> */}
@@ -188,6 +201,20 @@ function Header() {
                   onChange={filterSearchValue}
                 />
               </form>
+              <div className="admin-details">
+                <div className="profile">
+                  <button className="btn">
+                    <i className="fas fa-user-edit"></i>
+                  </button>
+                </div>
+                <div className="settings">
+                  <NavLink onClick={logout}>
+                    <button className="btn">
+                      <i className="fas fa-power-off"></i>
+                    </button>
+                  </NavLink>
+                </div>
+              </div>
             </div>
 
             {/* Admins details */}

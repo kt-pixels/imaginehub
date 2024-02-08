@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Images from "../../images.json";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useParams } from "react-router-dom";
 import { useFavoriteContext } from "../Context/ImageSaveContext.jsx";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
@@ -22,8 +22,6 @@ function ImageContainer() {
   };
 
   const { addToFavorite, downloadOnClick } = useFavoriteContext();
-
-
 
 
   return (

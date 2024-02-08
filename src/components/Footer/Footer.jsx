@@ -31,7 +31,7 @@ function Footer() {
       </div>
       <div className="contact-form">
         <div className="form">
-          <form name="contact" method="POST" data-netlify="true">
+          <form name="contact" netlify>
             <h2>Share Your Experience</h2>
             <input type="hidden" name="form-name" value="contact" />
             <input type="text" name="name" placeholder="Enter your name" />

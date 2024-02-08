@@ -28,3 +28,8 @@
     width: 15%;
     cursor: pointer;
 }
+
+p > a{
+    color: blue;
+    text-decoration: underline;
+}

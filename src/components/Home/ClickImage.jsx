@@ -1,6 +1,6 @@
-import React, { useCallback, useEffect, useRef, useState } from "react";
+import React, { useCallback, useRef } from "react";
 import { useOpenedImage } from "../Context/ClickImageContext";
-import { NavLink, Link, useParams } from "react-router-dom";
+import { NavLink, Link,} from "react-router-dom";
 import { useFavoriteContext } from "../Context/ImageSaveContext.jsx";
 import "./css/ClickImage.css";
 
@@ -15,9 +15,9 @@ function ClickImage() {
 
   const copyToClipBoard = useCallback(() => {
     shareLinkCopy.current?.select();
-    if(window.navigator.clipboard.writeText(shareLink)){
-      alert('Url Copied')
-    };
+    if (window.navigator.clipboard.writeText(shareLink)) {
+      alert("Url Copied");
+    }
   }, [shareLink]);
 
   return (
@@ -58,8 +58,7 @@ function ClickImage() {
       )}
 
       <div className="more-like-this-container">
-        <div className="heading">
-        </div>
+        <div className="heading"></div>
       </div>
     </div>
   );
