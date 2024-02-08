@@ -5,7 +5,7 @@ import ImageSaver from "./Home/ImageSaver";
 import AllCtg from "./SideMenu/AllCtg";
 import Boys from "./SideMenu/Boys";
 import Girls from "./SideMenu/Girls";
-// import ClickImage from "./Home/ClickImage";
+import ClickImage from "./Home/ClickImage";
 import Birds from "./SideMenu/Birds";
 import Flowers from "./SideMenu/Flowers";
 import Insects from "./SideMenu/Insects";
@@ -23,7 +23,7 @@ export {
   AllCtg,
   Boys,
   Girls,
-  // ClickImage,
+  ClickImage,
   Birds,
   Flowers,
   Insects,

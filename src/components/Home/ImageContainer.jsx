@@ -4,12 +4,12 @@ import { Link, NavLink, useParams } from "react-router-dom";
 import { useFavoriteContext } from "../Context/ImageSaveContext.jsx";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
-// import { useOpenedImage } from '../Context/ClickImageContext';
+import { useOpenedImage } from '../Context/ClickImageContext';
 
 
 function ImageContainer() {
 
-  // const {handleClick} = useOpenedImage();
+  const {handleClick} = useOpenedImage();
 
   // FOR IMAGE RENDARING AND FILTERING
   const [category, setCategory] = useState(Images);
@@ -99,14 +99,14 @@ function ImageContainer() {
         <div className="img-container">
           {category.map((value) => (
             <div key={value.id} className="image">
-              {/* <NavLink to={`/${value.id}`}> */}
+              <NavLink to={`/${value.id}`}>
               <img
                 src={value.img}
                 alt=""
                 className="image-here"
-                // onClick={()=> handleClick(value.img)}
+                onClick={()=> handleClick(value.img)}
               />
-              {/* </NavLink> */}
+              </NavLink>
 
               <div className="text">
                 <div className="img-text">

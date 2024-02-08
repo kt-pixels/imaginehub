@@ -201,20 +201,6 @@ function Header() {
                   onChange={filterSearchValue}
                 />
               </form>
-              <div className="admin-details">
-                <div className="profile">
-                  <button className="btn">
-                    <i className="fas fa-user-edit"></i>
-                  </button>
-                </div>
-                <div className="settings">
-                  <NavLink onClick={logout}>
-                    <button className="btn">
-                      <i className="fas fa-power-off"></i>
-                    </button>
-                  </NavLink>
-                </div>
-              </div>
             </div>
 
             {/* Admins details */}

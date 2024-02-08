@@ -501,13 +501,16 @@ body{
 }
 
 .admin-details-mb{
-    display: flex;
-    gap: 20px;
+    display: none;
 }
 
 @media only screen and (max-width: 1134px){
     .header-container {
         gap: 40px;
+    }
+    .admin-details-mb{
+        display: flex;
+        gap: 20px;
     }
 }
 

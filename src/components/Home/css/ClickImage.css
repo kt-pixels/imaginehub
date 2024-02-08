@@ -196,6 +196,8 @@
 
   .selectedImage > img {
     width: 300px;
+    
+    z-index: -100;
   }
 
   .download > button {
