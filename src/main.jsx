@@ -33,7 +33,7 @@ const router = createBrowserRouter(
       {/* <Route element={<Private />}> */}
       <Route path="" element={<App />}>
         <Route path="/" element={<Home />} />
-        <Route path="/images" element={<ClickImage />} />
+        <Route path="/:imgId" element={<ClickImage />} />
         <Route path="/animals" element={<AllCtg />} />
         <Route path="/boys" element={<Boys />} />
         <Route path="/girls" element={<Girls />} />
