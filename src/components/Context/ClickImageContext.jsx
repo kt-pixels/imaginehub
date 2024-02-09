@@ -14,20 +14,12 @@ export const OpenedImageProvider = ({ children }) => {
 
    // Function to handle click event
    const handleClick = (imageUrl) => {
-    try {
-      // Save the selected image URL to local storage
-      localStorage.setItem('selectedImage', JSON.stringify(imageUrl));
-      console.log('Image saved successfully');
-      // Update the context state
       setOpenedImage(imageUrl);
-    } catch (error) {
-      console.log('Error saving image', error);
-    }
   }
+
 
    // Function to remove image from local storage
    const removeImage = () => {
-    localStorage.removeItem('selectedImage');
     setOpenedImage([]);
   }
 
@@ -50,15 +42,6 @@ export const OpenedImageProvider = ({ children }) => {
     document.body.removeChild(downloadLink)
   }
 
-  // add to collection
-
-
-  // Effect to load the saved image URL from local storage on component mount
-  useEffect(() => {
-    // Load the saved image URL from local storage on component mount
-    const savedImage = JSON.parse(localStorage.getItem('selectedImage')) || [];
-    setOpenedImage(savedImage); // Set to empty string if not found
-  }, []);
 
   // Context value to be provided to consumers
   const contextValue = {

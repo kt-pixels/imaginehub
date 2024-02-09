@@ -1,15 +1,17 @@
-import React, { useCallback, useRef } from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 import { useOpenedImage } from "../Context/ClickImageContext";
-import { NavLink, Link,} from "react-router-dom";
+import { NavLink, Link, useParams,} from "react-router-dom";
 import { useFavoriteContext } from "../Context/ImageSaveContext.jsx";
 import "./css/ClickImage.css";
+
+import ImagesData from '../../images.json'
+
 
 function ClickImage() {
   // lets create a share link
   const { openedImage, removeImage, downloadImage } = useOpenedImage();
   const { addToFavorite } = useFavoriteContext();
 
-  // const { imgId } = useParams();
 
   // console.log("Image ID:", imgId);
 
