@@ -104,7 +104,7 @@ function ImageContainer() {
                 src={value.img}
                 alt=""
                 className="image-here"
-                onClick={()=> handleClick(value.img)}
+                onClick={()=> handleClick(`${value.img}`)}
               />
               </NavLink>
 

@@ -132,20 +132,20 @@ function Header() {
                 />
               </form>
             </div>
-            {/* <div className="admin-details-mb">
+            <div className="admin-details-mb">
               <div className="profile">
                 <button className="btn">
                   <i className="fas fa-user-edit"></i>
                 </button>
               </div>
               <div className="settings">
-                <NavLink onClick={logout}>
+                <NavLink to='/login' onClick={logout}>
                   <button className="btn">
                     <i className="fas fa-power-off"></i>
                   </button>
                 </NavLink>
               </div>
-            </div> */}
+            </div>
           </div>
 
           {/* </div> */}
@@ -205,20 +205,20 @@ function Header() {
 
             {/* Admins details */}
           </div>
-          {/* <div className="admin-details">
+          <div className="admin-details">
             <div className="profile">
               <button className="btn">
                 <i className="fas fa-user-edit"></i>
               </button>
             </div>
             <div className="settings">
-              <NavLink onClick={logout}>
+              <NavLink to='/login' onClick={logout}>
                 <button className="btn">
                   <i className="fas fa-power-off"></i>
                 </button>
               </NavLink>
             </div>
-          </div> */}
+          </div>
           {/* */}
         </nav>
       </header>

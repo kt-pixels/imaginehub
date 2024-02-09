@@ -34,7 +34,6 @@ function Login() {
             navigate('/')
         }else{
             alert('email and password is incorrect')
-            navigate('/login')
         }
     }
 

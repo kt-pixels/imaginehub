@@ -7,9 +7,6 @@ function Footer() {
 
   const navigate = useNavigate()
 
-  const gotoHome = () => {
-    navigate('/')
-  }
   return (
     <footer className="footer-container">
       <div className="categories">
@@ -38,10 +35,10 @@ function Footer() {
       </div>
       <div className="contact-form">
         <div className="form">
-          <form name="contact" netlify>
+          <form name="contactFormImage" netlify>
             <h2>Share Your Experience</h2>
             <input type="hidden" name="form-name" value="contact" />
-            <input type="text" name="name" placeholder="Enter your name" />
+            <input type="text" name="firstname" placeholder="Enter your name" />
             <input type="email" name="email" placeholder="Enter your email" />
             <input
               type="tel"
@@ -49,7 +46,7 @@ function Footer() {
               placeholder="Enter your contact number"
             />
             <textarea name="message" placeholder="Message..."></textarea>
-            <button type="submit" onClick={gotoHome}>Submit</button>
+            <input type="submit" id="submit-btn" />
           </form>
         </div>
       </div>

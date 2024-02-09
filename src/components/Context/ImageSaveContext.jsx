@@ -61,17 +61,7 @@ export const FavoritesProvider = ({ children }) => {
 
     // remove anchor tag
     document.body.removeChild(downloadLink);
-  };
-
-    // Function to handle page reload
-    const handleReload = () => {
-      // Redirect to home page
-      window.location.href = "/";
-    };
-  
-    // Attach handleReload function to onbeforeunload event
-    window.onbeforeunload = handleReload;
-  
+  }; 
   
 
   return (
