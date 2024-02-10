@@ -132,7 +132,7 @@ function Header() {
                 />
               </form>
             </div>
-            <div className="admin-details-mb">
+            {/* <div className="admin-details-mb">
               <div className="profile">
                 <button className="btn">
                   <i className="fas fa-user-edit"></i>
@@ -145,7 +145,7 @@ function Header() {
                   </button>
                 </NavLink>
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* </div> */}
@@ -205,7 +205,7 @@ function Header() {
 
             {/* Admins details */}
           </div>
-          <div className="admin-details">
+          {/* <div className="admin-details">
             <div className="profile">
               <button className="btn">
                 <i className="fas fa-user-edit"></i>
@@ -218,7 +218,7 @@ function Header() {
                 </button>
               </NavLink>
             </div>
-          </div>
+          </div> */}
           {/* */}
         </nav>
       </header>

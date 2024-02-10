@@ -58,10 +58,10 @@ body{
 }
 
 .navbar{
-    display: flex;
+    /* display: flex; */
     background-color: rgb(6 0 22);
     padding: 20px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     box-shadow: 0 0 20px black;
 }
 
@@ -80,6 +80,7 @@ body{
     align-items: center;
     transition: all .3s ease-in-out;
     transform: translateY(0px);
+    justify-content: space-between;
 }
 
 .header-container .lists{
@@ -140,7 +141,7 @@ body{
   }
 
 .admin-details{
-    display: flex;
+    display: none;
     align-items: center;
     gap: 30px;
 }
@@ -509,7 +510,7 @@ body{
         gap: 40px;
     }
     .admin-details-mb{
-        display: flex;
+        display: none;
         gap: 20px;
     }
 }

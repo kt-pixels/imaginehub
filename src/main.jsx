@@ -25,15 +25,15 @@ import {
   Home,
   ImageSaver,
   Insects,
-  Signup,
-  Private,
-  Login,
+  // Signup,
+  // Private,
+  // Login,
 } from "./components/index.js";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route>
-      <Route element={<Private />}>
+      {/* <Route element={<Private />}> */}
       <Route path="" element={<App />}>
         <Route path="/" element={<Home />} />
         <Route path=":id" element={<ClickImage />} />
@@ -47,9 +47,9 @@ const router = createBrowserRouter(
         <Route path="/food" element={<Food />} />
         <Route path="/favourite" element={<ImageSaver />} />
       </Route>
-      </Route>
-      <Route path="/sign-up" element={<Signup />} />
-      <Route path="/login" element={<Login />} />
+      {/* </Route> */}
+      {/* <Route path="/sign-up" element={<Signup />} /> */}
+      {/* <Route path="/login" element={<Login />} /> */}
     </Route>
   )
 );
