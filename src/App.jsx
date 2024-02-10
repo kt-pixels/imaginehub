@@ -1,6 +1,6 @@
 import { useCallback } from "react";
 import "./App.css";
-import { Footer, Header } from "./components";
+import { Footer, Header, ScrollBtn } from "./components";
 import { Outlet, useNavigate } from "react-router-dom";
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
       <main>
         <Header />
         <Outlet />
+        <ScrollBtn/>
         <Footer />
       </main>
     </>

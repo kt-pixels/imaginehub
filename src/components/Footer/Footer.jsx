@@ -8,6 +8,7 @@ function Footer() {
   const navigate = useNavigate()
 
   return (
+    <section>
     <footer className="footer-container">
       <div className="categories">
         <h3>Category</h3>
@@ -51,6 +52,10 @@ function Footer() {
         </div>
       </div>
     </footer>
+    <aside>
+      <p>© 2024 ImagineHub. All rights reserved.</p>
+    </aside>
+    </section>
   );
 }
 

@@ -14,6 +14,7 @@ import Cars from "./SideMenu/Cars";
 import Private from './Private/Private'
 import Signup from './Signup/Signup'
 import Login from './Login/Login'
+import ScrollBtn from "./ScrollBtn/ScrollBtn";
 
 export {
   Header,
@@ -32,4 +33,5 @@ export {
   Private,
   Signup,
   Login,
+  ScrollBtn,
 };

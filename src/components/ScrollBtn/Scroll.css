@@ -1,0 +1,12 @@
+.topOnClick{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.top {
+    font-size: 30px;
+}

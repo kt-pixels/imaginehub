@@ -98,6 +98,13 @@ form > button {
 #submit-btn{
     border-radius: 5px;
     cursor: pointer;
+    margin-block: 20px;
+}
+
+aside{
+    text-align: center;
+    padding-block: 20px;
+    background-color: rgb(6 0 22);
 }
 
 @media only screen and (max-width: 950px){
@@ -178,6 +185,9 @@ form > button {
 @media only screen and (max-width: 310px){
     form > h2 {
         font-size: 19px;
+    }
+    aside {
+        font-size: 12px;
     }
 }
 
