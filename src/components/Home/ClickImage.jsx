@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import { useOpenedImage } from "../Context/ClickImageContext";
-import { NavLink, Link, useParams,} from "react-router-dom";
+import { NavLink, Link, useParams, useNavigate,} from "react-router-dom";
 import { useFavoriteContext } from "../Context/ImageSaveContext.jsx";
 import "./css/ClickImage.css";
 
@@ -11,7 +11,12 @@ function ClickImage() {
   // lets create a share link
   const { openedImage, removeImage, downloadImage } = useOpenedImage();
   const { addToFavorite } = useFavoriteContext();
+  const navigate = useNavigate()
 
+  const goBack = () => {
+    removeImage();
+    navigate(-1)
+  }
 
   // console.log("Image ID:", imgId);
 
@@ -54,9 +59,9 @@ function ClickImage() {
             <button className="cancle-btn" onClick={copyToClipBoard}>
               Copy & share
             </button>
-            <NavLink to="/" className="cancle-btn">
-              <button onClick={removeImage}>Cancel</button>
-            </NavLink>
+            <div className="cancle-btn">
+              <button onClick={goBack}>Cancel</button>
+            </div>
           </div>
         </div>
       ) : (

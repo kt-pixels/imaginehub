@@ -709,12 +709,19 @@ body{
 
 @media only screen and (max-width: 466px){
     .img-container .image {
-        width: 270px;
-        margin: 20px 0;
+        width: 160px;
+        margin: 8px 10px;
     }
 
     .text .img-text {
-        font-size: 20px;
+        font-size: 16px;
+    }
+
+    .text{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
     }
 
     .side-menu {
@@ -739,6 +746,12 @@ body{
 
 }
 
+@media only screen and (max-width: 405px){
+    .text .download-btn .download button{
+        font-size: 10px;
+    }
+}
+
 @media only screen and (max-width: 394px){
     .logo-heading {
         margin-block-start: 15px;
@@ -760,6 +773,18 @@ body{
     .welcome-message p {
         font-size: 12px;
     }
+
+    .img-container .image {
+        width: 160px;
+        margin: 8px 10px;
+    }
+}
+
+@media only screen and (max-width: 366px){
+    .img-container .image {
+        width: 145px;
+        margin: 8px 10px;
+    }
 }
 
 @media only screen and (max-width: 348px){
@@ -770,11 +795,16 @@ body{
     .mb-logo{
         font-size: 26px;
     }
+
+    .img-container .image {
+        width: 130px;
+        margin: 8px 10px;
+    }
 }
 
 @media only screen and (max-width: 300px){
     .img-container .image {
-        width: 240px;
-        margin: 20px 0;
+        width: 110px;
+        margin: 8px 10px;
     }
 }

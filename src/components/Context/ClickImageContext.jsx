@@ -1,4 +1,5 @@
 import {useContext, createContext, useState, useEffect} from 'react'
+import { useNavigate } from 'react-router-dom';
 
 const OpenedImageContext = createContext({});
 
@@ -29,6 +30,7 @@ export const OpenedImageProvider = ({ children }) => {
     localStorage.removeItem('selectedImage')
     setOpenedImage([]);
   }
+
 
   // for downloading selected image 
   const downloadImage = (imageUrl, imageName) => {
